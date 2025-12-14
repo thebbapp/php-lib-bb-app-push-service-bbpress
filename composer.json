@@ -1,0 +1,21 @@
+{
+    "name": "thebbapp/push-service-bbpress",
+    "description": "BBPress push notification service implementation for BbApp.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BbApp\\PushService\\BbPress\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.24",
+        "thebbapp/push-service-wordpress-base": "0.1.0"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://thebbapp.com/donate"
+        }
+    ]
+}
